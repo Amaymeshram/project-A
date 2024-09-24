@@ -1,0 +1,302 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    width: 100%;
+    height: 100%;
+}
+
+.d1{
+    height: 200%;
+    width: 100%;
+    background-image:url(homeimg/desktop-wallpaper-web-development.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    /* padding: 15px; */
+    
+}
+.first{
+    animation-name: anim;
+    animation-duration: 1s
+}
+@keyframes anim {
+    from{
+        font-size: 15px;
+        
+        
+        
+        
+    }
+    to{
+        font-size: 50px;
+
+    }
+}
+
+nav{
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    background-color: gray;
+    
+}
+nav h2{
+    font-size: 40px;
+    color: white;
+}
+nav h2 span{
+    font-size: 38;
+    color: red;
+}
+.list{
+    width: 380px;
+    /* border: 1px solid black; */
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    
+    
+}
+.list li a{
+    text-decoration: none;
+    color: white;
+    transition: 1s
+}
+
+
+.list li a:hover{
+   color: orangered;
+}
+.buttons{
+    width: 200px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.login ,.register{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: orangered;
+    transition: 1s;
+    margin-left: 10px;
+}
+
+.register{
+background-color: black;
+}
+
+.login:hover ,.register:hover{
+        background-color: white;
+        color: black;
+    }
+
+.M-cont-a{
+    width: 100%;
+    height: 30%;
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    font-family: sans-serif;
+}
+.cont-a-sib1{
+    height: 100%;
+    width: 50%;
+    /* background-color: white; */
+    padding: 100px;
+    font-size: 25px;
+ color: white;
+    line-height: 30px;
+}
+.cont-a-sib1 p{
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+.cont-a-sib2{
+    height: 100%;
+    width: 25%;
+    /* background-color:red; */
+    padding: 20px;
+   color: rgb(163, 162, 162);
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 40px;
+    
+}
+
+.add{
+    height: 20%;
+    width: 100%;
+}
+
+
+
+.whyus{
+    width: 100%;
+    height: 24%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(homeimg/images.jfif);
+    /* background-size: cover; */
+    background-size: 2300px 450px ;
+
+
+}
+
+.why-cont1{
+    height: 100%;
+    width: 60%;
+    padding: 100px;
+   
+   
+    
+
+
+}
+.heading{
+    color: red;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.heading span{
+    color: red;
+font-size: 30px;
+}
+
+.content{
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.contact a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    background-color: rgb(238, 36, 36);
+    transition-duration: 0.5s;
+    
+}
+
+.contact a:hover{
+    background-color: rgb(124, 6, 6);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    height: 448px;
+    background-color: rgb(55, 55, 55);
+    
+    
+    padding-top: 20px;
+    
+    /* justify-content: space-around; */
+    
+}
+.M-F-cont{
+    height: 81%;
+    display: flex;
+    margin-left: 30px;
+}
+
+
+.F1 {
+    width: 20%;
+    height: 100%;
+    /* background-color: brown; */
+    padding: 10px;
+    font-size: 15px;
+    color: rgb(207, 207, 207);
+    font-family: sans-serif;
+    
+}
+.f1head{
+    color: rgb(241, 241, 241);
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+}
+
+.F2{
+    width: 75%;
+    height: 100%;
+    /* background-color: rgb(200, 126, 126); */
+    padding: 15px;
+    font-size: 18px;
+    color: rgb(207, 207, 207);
+    font-family: sans-serif;
+    padding-left: 20px;
+    border-left: 1px solid grey;
+}
+
+.para{
+    line-height: 30px;
+
+}
+
+.last{
+    height: 15%;
+    width: 100%;
+    line-height: 27px;
+    background-color: darkgray;
+    
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.logo-link{
+     color: black;
+     padding: 10px;
+     background-color: rgb(188, 187, 187);
+     border-radius: 20px;
+     margin-left: 15px;
+}
+

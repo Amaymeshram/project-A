@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    width: 100%;
+    height: 100%;
+}
+
+.d1{
+    height: 100%;
+    width: 100%;
+    background-image:url(homeimg/desktop-wallpaper-web-development.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-cont{
+    height: 85%;
+    width: 45%;
+    background-color: lightyellow;
+    border: 2px solid yellow;
+    padding: 20px;  
+    
+}
+.input-fields{
+    display: flex;
+    /* border: 1px solid black; */
+   
+}
+
+
+
+
+
+.field {
+    
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+input{
+    width: 100%;
+    /* height: 35px; */
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 10px;
+    border: 1px solid rgb(75, 75, 14);
+    border-radius: 5px;    
+}
+
+
+p{
+    margin-left: 5px;
+    font-family: sans-serif;
+    font-size: medium;
+
+}
+.buttons{
+    display: flex;
+    padding-left: 60px;
+    padding-right: 60px;
+    justify-content: center;
+
+}
+
+.submit {
+    background-color: green;
+    padding: px;
+    width: 35%;
+    margin-right: 15px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+   
+    
+}
+
+.reset{
+    width: 35%;
+    font-family: sans-serif;
+    font-size: 20px;
+    transition: 1s;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
